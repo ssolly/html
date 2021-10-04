@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML day01</title>
+</head>
+<body>
+<!-- 색상 변경 <body text="white" bgcolor="black">  -->
+<!-- 주석 -->
+
+<h1> 문서의 주제목</h1>
+<h2>문서의 주제목 또는 부제목</h2>
+<h3 style="background-color: pink;" >문서의 부제목 또는 내용</h3>
+<h4>문서의 내용</h4>
+<h5>문서의 내용</h5>
+<h6>문서의 내용</h6>
+<hr>
+
+<font size="7" color="red" style="background-color: black;"> 글자 크기7 </font>
+<font size="6" color = "orange"> 글자 크기6 </font>
+<font size="5" face="궁서체" color='yellow'> 글자 크기5 </font>
+<font size="4" color='green'> 글자 크기4 </font>
+<font size="3" color='blue'> 글자 크기3 </font>
+<font size="2" color='darkblue'> 글자 크기2 </font>
+<font size="1" color="purple"> 글자 크기1 </font>
+<hr>
+
+	안녕하세요 :D <br> 제 이름은 <br> 
+	<p> 홍길동 <p> <!-- p : 문단 -->
+	입니다.
+<hr>
+
+<!-- 중첩 사용 가능 -->
+<strike>삭제표시</strike><br>
+<b>굵은 글씨</b> <br>
+<i>이태릭체</i> <br>
+<u>밑줄효과</u> <br>
+<sub>아래점자</sub> 기본값 <sup>위첨자</sup>
+<hr>
+
+<!-- table : 표 -->
+<table border="1" align="center" height="150" width="300" bgcolor="skyblue">
+	<caption><b>테이블에 대한 <i>제목</i> 태그 : caption</b></caption>
+	<tr> <!-- tr:행 -->
+		<!-- td:열(좌측정렬), colspan:자기를 기준으로 우측으로 병합-->
+		<td colspan="2">1</td> <!-- <td>2</td> --> <td>3</td>	
+	</tr>
+	<tr>
+		<td rowspan="2">四</td> <td>五</td> <td>六</td>
+		<!-- rowspan:자기 기준 밑으로 병합 -->
+	</tr>
+	<tr>
+		<!-- <th>칠</th> --> <th>팔</th> <th>구</th>	<!-- th:열(가운데정렬,굵은글씨) -->
+	</tr>
+</table>
+
+</body>
+</html>
